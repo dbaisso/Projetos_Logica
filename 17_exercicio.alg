@@ -1,8 +1,6 @@
-algoritmo "17)exercicio"
-// Função :
-// Autor :
-// Data : 05/05/2021
-// Seção de Declarações 
+algoritmo "17_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
    V,J:Real
 inicio
@@ -10,10 +8,10 @@ inicio
       Leia(V)
            Se(V>=80)entao
            J<-(V-80)*5
-           Escreval("Você foi multado por ultrapassar o limite de velicidade em ",V," km.")
-           Escreval("Sua multa será de R$ ",J)
+           Escreval("VocÃª foi multado por ultrapassar o limite de velicidade em ",V," km.")
+           Escreval("Sua multa serÃ¡ de R$ ",J)
                    Senao
-                   Escreval("Você está no limite de velocidade da pista.")
+                   Escreval("VocÃª estÃ¡ no limite de velocidade da pista.")
       fimse
-      // Seção de Comandos
+      // SeÃ§Ã£o de Comandos
 fimalgoritmo
