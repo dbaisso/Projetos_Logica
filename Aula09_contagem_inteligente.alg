@@ -1,15 +1,13 @@
-algoritmo "Aula9Contagem inteligente"
-// FunÁ„o :
-// Autor :
-// Data : 07/05/2021
-// SeÁ„o de DeclaraÁıes 
+algoritmo "9_Aula_Contagem_inteligente"
+// Se√ß√£o de Declara√ß√µes 
+
 var
    I,F:inteiro
 inicio
       Escreval("----------------------------------------")
       Escreval("         CONTAGEM INTELIGENTE           ")
       Escreval("----------------------------------------")
-      Escreva("INÕCIO: ")
+      Escreva("IN√çCIO: ")
       Leia (I)
       Escreva("FINAL: ")
       Leia (F)
@@ -27,5 +25,5 @@ inicio
                fimse
       Escreva(I)
       fimenquanto
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
