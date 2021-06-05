@@ -1,8 +1,6 @@
-   algoritmo "25)exercicio"
-// FunÁ„o :
-// Autor :
-// Data : 06/05/2021
-// SeÁ„o de DeclaraÁıes 
+   algoritmo "25_exercicio"
+// Se√ß√£o de Declara√ß√µes 
+
 var
    L1,L2,L3:inteiro
 inicio
@@ -14,13 +12,13 @@ inicio
       Escreval("Digite o valor do terceiro lado: ")
       Leia(L3)
               se(L1=L2)e(L2=L3)entao
-              Escreval("O tri‚ngulo possui todos os lados iguais,ent„o, EQUILATERO")
+              Escreval("O tri√¢ngulo possui todos os lados iguais,ent√£o, EQUILATERO")
               senao
                    se(L1<>L2)e(L2<>L3)e(L1<>L3)entao
-                   Escreval("O tri‚ngulo possui todos os lados diferentes,ent„o, ESCALENO")
+                   Escreval("O tri√¢ngulo possui todos os lados diferentes,ent√£o, ESCALENO")
                    senao
                         se(L1=L2)ou(L2=L3)ou(L3=L1)entao
-                        Escreval("O tri‚ngulo possui dois lados iguais,ent„o, ISOSCELES")
+                        Escreval("O tri√¢ngulo possui dois lados iguais,ent√£o, ISOSCELES")
                         senao
                         fimse
                    fimse
@@ -29,18 +27,15 @@ inicio
 
       //Outro modo de representar os triangulos
       //Se(L1=L2)e(L2=L3)entao
-      //Escreval("Para todos os lados do trÌangulos iguais temos um trin‚ngulo Equil·tero")
+      //Escreval("Para todos os lados do tr√≠angulos iguais temos um trin√¢ngulo Equil√°tero")
       //senao
       //    se(L1+L2<L3)e(L2+L3<L1)e(L3+L1<L2)entao
-      //     Escreval("Para o comprimento de cada lado ser menor que a soma dos outros dois, ou seja, … TRI¬NGULO")
+      //     Escreval("Para o comprimento de cada lado ser menor que a soma dos outros dois, ou seja, √â TRI√ÇNGULO")
       //     senao
       //          se(L1<>L2)e(L2<>L3)e(L3<>L1)entao
-      //          Escreval("Esse triangulo È escaleno")
+      //          Escreval("Esse triangulo √© escaleno")
       //          senao
       //          fimse
       //    fimse
       //fimse
-
-
-// SeÁ„o de Comandos 
 fimalgoritmo
