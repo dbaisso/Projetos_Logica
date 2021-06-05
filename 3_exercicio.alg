@@ -1,17 +1,14 @@
-algoritmo "3)exercicio"
-// FunÁ„o :
-// Autor :
-// Data : 05/05/2021
-// SeÁ„o de DeclaraÁıes 
-var
-Nome: caractere
-Salario: real
+algoritmo "3_exercicio"
 
+// Se√ß√£o de Declara√ß√µes 
+var
+  Nome: caractere
+  Salario: real
 inicio
-      Escreval("Ol·, qual nome do funcion·rio?")
+      Escreval("Ol√°, qual nome do funcion√°rio?")
       Leia (Nome)
-       Escreval("Qual sal·rio dessa pessoa apenas em n˙meros?")
+       Escreval("Qual sal√°rio dessa pessoa apenas em n√∫meros?")
       Leia (Salario)
-      Escreval("Nome do funcionario È ",Nome)
-      Escreval("O sal·rio desse funcion·rio È de R$ ",Salario)
+      Escreval("Nome do funcionario √© ",Nome)
+      Escreval("O sal√°rio desse funcion√°rio √© de R$ ",Salario)
 fimalgoritmo
