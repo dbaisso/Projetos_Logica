@@ -1,6 +1,5 @@
 algoritmo "10_exercicio"
 
-// Data : 05/05/2021
 // Seção de Declarações 
 
 var
