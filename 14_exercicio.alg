@@ -1,8 +1,7 @@
-algoritmo "14)exercicio"
-// Função :
-// Autor :
-// Data : 05/05/2021
-// Seção de Declarações 
+algoritmo "14_exercicio"
+
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
 Kmrod,DiasAlug:Real
 
@@ -12,9 +11,5 @@ Escreval("Quantos kilometros foram rodados?")
 Leia(Kmrod)
 Escreval("Quantos dias o carro foi alugado?")
 Leia(DiasAlug)
-Escreval("O seu preço total final será de R$ ",90*DiasAlug+0.20*Kmrod)
-
-
-
-// Seção de Comandos 
+Escreval("O seu preÃ§o total final serÃ¡ de R$ ",90*DiasAlug+0.20*Kmrod)
 fimalgoritmo
