@@ -1,22 +1,19 @@
-algoritmo "24)exercicio"
-// Função :
-// Autor :
-// Data : 06/05/2021
-// Seção de Declarações 
+algoritmo "24_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
+
 var
    N:caractere
    K:inteiro
 inicio
       Escreval("----------------------------------------------")
-      Escreval("      Passagens por quilometros <SÓ AQUI>      ")
+      Escreval("      Passagens por quilometros <SÃ“ AQUI>      ")
       Escreval("Qual seu nome?")
       Leia(N)
-      Escreval("Quantos quilometros pretende percorrer? Favor digitar números inteiros")
+      Escreval("Quantos quilometros pretende percorrer? Favor digitar nÃºmeros inteiros")
       leia(K)
            Se(K>=200)entao
-           Escreval("Olhando no nosso sistema, o valor da passagem de ",N," irá custar R$",K*0.45)
+           Escreval("Olhando no nosso sistema, o valor da passagem de ",N," irÃ¡ custar R$",K*0.45)
            senao(K<200)
-           Escreval("Olhando no nosso sistema, o valor da passagem de ",N," irá custar R$",K*0.50)
+           Escreval("Olhando no nosso sistema, o valor da passagem de ",N," irÃ¡ custar R$",K*0.50)
            fimse
-// Seção de Comandos 
 fimalgoritmo
