@@ -1,19 +1,16 @@
-algoritmo "18)exercicio"
-// FunÁ„o :
-// Autor :
-// Data : 06/05/2021
-// SeÁ„o de DeclaraÁıes 
+algoritmo "18_exercicio"
+// Se√ß√£o de Declara√ß√µes 
+
 var
    Ai,Idd:inteiro
 inicio
-      Escreval("Ol· tudo bem? Vamos saber se j· pode votar?")
-      Escreval("Em que ano vocÍ nasceu?")
+      Escreval("Ol√° tudo bem? Vamos saber se j√° pode votar?")
+      Escreval("Em que ano voc√™ nasceu?")
       Leia(Ai)
       Idd<-2021-Ai
                   Se(idd>=18)entao
-                  Escreval("Sua idade È ",Idd, " e j· possui maioridade. Pode votar.")
+                  Escreval("Sua idade √© ",Idd, " e j√° possui maioridade. Pode votar.")
                             senao
-                            Escreval("Sua idade È ",Idd," e vc n„o possui maioridade, ent„o n„o pode votar ainda.")
+                            Escreval("Sua idade √© ",Idd," e vc n√£o possui maioridade, ent√£o n√£o pode votar ainda.")
       fimse
-      // SeÁ„o de Comandos
 fimalgoritmo
