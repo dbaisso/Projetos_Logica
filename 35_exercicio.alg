@@ -1,8 +1,6 @@
-algoritmo "35)exercicio"
-// Função :
-// Autor :
-// Data : 14/05/2021
-// Seção de Declarações 
+algoritmo "35_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
 tipocarro,resp:caractere
 diasaluguel:inteiro
@@ -22,24 +20,24 @@ se tipocarro="popular" entao
          se quilometrospercorrido>=100 entao
          quilometrospercorrido<-quilometrospercorrido*0.10
          diasaluguel<-diasaluguel*90
-         Escreval("O valor do aluguel do carro será R$ ",quilometrospercorrido+diasaluguel)
+         Escreval("O valor do aluguel do carro serÃ¡ R$ ",quilometrospercorrido+diasaluguel)
                      senao quilometrospercorrido<100
                      quilometrospercorrido<-quilometrospercorrido*0.20
                      diasaluguel<-diasaluguel*90
-                     Escreval("O valor do aluguel do carro será R$ ",quilometrospercorrido+diasaluguel)
+                     Escreval("O valor do aluguel do carro serÃ¡ R$ ",quilometrospercorrido+diasaluguel)
                      fimse
 senao tipocarro="luxo"
                                  se quilometrospercorrido>=200 entao
                                  quilometrospercorrido<-quilometrospercorrido*0.25
                                  diasaluguel<-diasaluguel*150
-                                 Escreval("O valor do aluguel do carro será R$ ",quilometrospercorrido+diasaluguel)
+                                 Escreval("O valor do aluguel do carro serÃ¡ R$ ",quilometrospercorrido+diasaluguel)
                                              senao quilometrospercorrido<200
                                              quilometrospercorrido<-quilometrospercorrido*0.30
                                              diasaluguel<-diasaluguel*150
-                                             Escreval("O valor do aluguel do carro será R$ ",quilometrospercorrido+diasaluguel)
+                                             Escreval("O valor do aluguel do carro serÃ¡ R$ ",quilometrospercorrido+diasaluguel)
                                  fimse
 fimse
-Escreval("Deseja fazer novas avaliações [S/N]?")
+Escreval("Deseja fazer novas avaliaÃ§Ãµes [S/N]?")
 Leia(resp)
 limpatela
 Ate (resp="N")
