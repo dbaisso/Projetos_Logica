@@ -1,14 +1,10 @@
-algoritmo "9)exercicio"
-// Função :
-// Autor :
-// Data : 05/05/2021
-// Seção de Declarações 
-var
-N1: real
-inicio
+algoritmo "9_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 
-Escreval("Quantos reais você tem na carteira?")
-Leia(N1)
-Escreval("Considerando que o Dolar está para compra U$3,45, você pode comprar ",N1/3.45," U$.")
-// Seção de Comandos 
+var
+  N1: real
+inicio
+      Escreval("Quantos reais vocÃª tem na carteira?")
+      Leia(N1)
+      Escreval("Considerando que o Dolar estÃ¡ para compra U$3,45, vocÃª pode comprar ",N1/3.45," U$.")
 fimalgoritmo
