@@ -1,18 +1,15 @@
-algoritmo "15)exercicio"
-// Função :
-// Autor :
-// Data : 05/05/2021
-// Seção de Declarações 
+algoritmo "15_exercicio"
+
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
 DiaTrab,S: real
 
 inicio
-Escreval("Qual número de dias trabalhados em um período de um mês?")
+Escreval("Qual nÃºmero de dias trabalhados em um perÃ­odo de um mÃªs?")
 Leia (DiaTrab)
 S<-(DiaTrab*25*8)
-Escreval("A jornada de trabalho é de 8 horas por dia e ganha R$25,00 por hora trabalhada")
-Escreval("A quantidade de dias trabalhados é de ",DiaTrab)
-Escreval("e o salário correspondete a esses dias trabalhados é de",S)
-
-// Seção de Comandos 
+Escreval("A jornada de trabalho Ã© de 8 horas por dia e ganha R$25,00 por hora trabalhada")
+Escreval("A quantidade de dias trabalhados Ã© de ",DiaTrab)
+Escreval("e o salÃ¡rio correspondete a esses dias trabalhados Ã© de",S)
 fimalgoritmo
