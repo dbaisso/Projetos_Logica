@@ -1,13 +1,9 @@
-algoritmo "6)exercicio"
-// Função :
-// Autor :
-// Data : 05/05/2021
-// Seção de Declarações 
+algoritmo "6_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
-N1: inteiro
+   N1: inteiro
 inicio
-
-      Escreval("Digite um número e mostraremos seu sucessor e antecessor: ")
+      Escreval("Digite um nÃºmero e mostraremos seu sucessor e antecessor: ")
       Leia (N1)
-      Escreval("O número ",N1," foi escolhido e seu antecessor será",N1-1," e seu sucessor será", N1+1)
+      Escreval("O nÃºmero ",N1," foi escolhido e seu antecessor serÃ¡",N1-1," e seu sucessor serÃ¡", N1+1)
 fimalgoritmo
