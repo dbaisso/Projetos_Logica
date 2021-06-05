@@ -1,22 +1,20 @@
-algoritmo "33)exercicio"
-// FunÁ„o :
-// Autor :
-// Data : 12/05/2021
-// SeÁ„o de DeclaraÁıes 
+algoritmo "33_exercicio"
+// Se√ß√£o de Declara√ß√µes 
+
 var
    Valor_imovel,Salario_comprador,Anos_quitar,Parcela_mensal:real
 inicio
-      Escreval("Digite qual valor do imÛvel?")
+      Escreval("Digite qual valor do im√≥vel?")
       Leia(Valor_imovel)
-      Escreval("Digite o seu sal·rio?")
+      Escreval("Digite o seu sal√°rio?")
       Leia(Salario_comprador)
-      Escreval("Em quantos anos pretende pagar o valor total do imÛvel?")
+      Escreval("Em quantos anos pretende pagar o valor total do im√≥vel?")
       Leia(Anos_quitar)
       Parcela_mensal<-(Valor_imovel/(Anos_quitar*12))
           se salario_comprador*0.30>Parcela_mensal entao
-          Escreval("ParabÈns sua linha de crÈdito foi aprovada. A sua parcela mensal ser· de R$ ",Parcela_mensal)
+          Escreval("Parab√©ns sua linha de cr√©dito foi aprovada. A sua parcela mensal ser√° de R$ ",Parcela_mensal)
           senao
-          Escreval("Infelizmente n„o podemos aprovar seu financiamento pois, a parcela excede 30% do seu sal·rio.")
+          Escreval("Infelizmente n√£o podemos aprovar seu financiamento pois, a parcela excede 30% do seu sal√°rio.")
           fimse
-      //calcular valor da parcela mensal e n„o pode exceder 30% do sal·rio, ou entao, emprestimo ser· negado
+      //calcular valor da parcela mensal e n√£o pode exceder 30% do sal√°rio, ou entao, emprestimo ser√° negado
 fimalgoritmo
