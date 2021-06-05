@@ -1,27 +1,22 @@
-algoritmo "26)exercicio"
-// Função :
-// Autor :
-// Data : 06/05/2021
-// Seção de Declarações 
+algoritmo "26_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
    N1,N2:inteiro
 inicio
-      Escreval("Digite o primeiro número: ")
+      Escreval("Digite o primeiro nÃºmero: ")
       Leia (N1)
-      Escreval("Digite o segundo número: ")
+      Escreval("Digite o segundo nÃºmero: ")
       Leia (N2)
            Se(N1>N2)entao
-           Escreval("O primeiro valor é o maior")
+           Escreval("O primeiro valor Ã© o maior")
            Senao
                 se(N2>N1)entao
-                Escreval("O segundo valor é o maior")
+                Escreval("O segundo valor Ã© o maior")
                 senao
                      se(N1=N2)entao
-                     Escreval("Não existe valor maior, os dois são iguals")
+                     Escreval("NÃ£o existe valor maior, os dois sÃ£o iguals")
                      fimse
                 Fimse
            Fimse
-      
-
-// Seção de Comandos 
 fimalgoritmo
