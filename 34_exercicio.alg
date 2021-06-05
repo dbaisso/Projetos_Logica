@@ -1,4 +1,5 @@
-algoritmo "34)exercicio"
+algoritmo "34_exercicio"
+
 var
    P,A,IMC:real
 inicio
@@ -11,19 +12,19 @@ inicio
       Leia(A)
       IMC<-P/(A^2)
                 se IMC<18.5 entao
-                Escreval("Você está com ",IMC:2:1," e está abaixo do peso.")
+                Escreval("VocÃª estÃ¡ com ",IMC:2:1," e estÃ¡ abaixo do peso.")
                 senao
                      se (IMC>=18.5) e (IMC<25) entao
-                     Escreval("Você está com ",IMC:2:1," e está no seu peso ideal.")
+                     Escreval("VocÃª estÃ¡ com ",IMC:2:1," e estÃ¡ no seu peso ideal.")
                      senao
                        se (IMC>=25) e (IMC<30) entao
-                       Escreval("Você está com ",IMC:2:1," e está com sobrepeso.")
+                       Escreval("VocÃª estÃ¡ com ",IMC:2:1," e estÃ¡ com sobrepeso.")
                        senao
                          se (IMC>=30) e (IMC<40) entao
-                         Escreval("Você está com ",IMC:2:1," e está com obesidade.")
+                         Escreval("VocÃª estÃ¡ com ",IMC:2:1," e estÃ¡ com obesidade.")
                          senao
                            se IMC>=40 entao
-                           Escreval("Vocês está com ",IMC:2:1," E está com obesidade morbida.")
+                           Escreval("VocÃªs estÃ¡ com ",IMC:2:1," E estÃ¡ com obesidade morbida.")
                            senao
                            fimse
                          fimse
