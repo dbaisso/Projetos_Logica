@@ -1,14 +1,12 @@
-algoritmo "4)exercicio"
-// Função :
-// Autor :
-// Data : 05/05/2021
-// Seção de Declarações 
+algoritmo "4_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
     N1,N2:real
 inicio
-Escreval("Digite um número: ")
-Leia (N1)
-Escreval("Digite outro número: ")
-Leia (N2)
-Escreva("A soma entre",N1," e ",N2," será ",N1+N2)
+        Escreval("Digite um nÃºmero: ")
+    Leia (N1)
+    Escreval("Digite outro nÃºmero: ")
+    Leia (N2)
+    Escreva("A soma entre",N1," e ",N2," serÃ¡ ",N1+N2)
 fimalgoritmo
