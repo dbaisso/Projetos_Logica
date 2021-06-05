@@ -1,7 +1,7 @@
-algoritmo "1)exercicio"
+algoritmo "1_exercicio"
 
 var
 
 inicio
- Escreva ("Ol· Mundo!";0
+      Escreva ("Ol√° Mundo!";0
 fimalgoritmo
