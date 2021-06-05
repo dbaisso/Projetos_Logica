@@ -1,19 +1,15 @@
-algoritmo "20exercicio"
-// Função :
-// Autor :
-// Data : 06/05/2021
-// Seção de Declarações 
+algoritmo "20_exercicio"
+
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
   N1,NF:inteiro
 inicio
-      Escreval("Informe um número inteiro para saber se ele é par ou ímpar")
+      Escreval("Informe um nÃºmero inteiro para saber se ele Ã© par ou Ã­mpar")
       Leia(N1)
       NF<-(N1%2)
                 se(NF=0)entao
-                Escreval("O número escolhido foi",N1," e é par")
+                Escreval("O nÃºmero escolhido foi",N1," e Ã© par")
                 senao(NF=1)
-                Escreval("O número escolhido foi",N1," e é ímpar")
-      fimse
-
-// Seção de Comandos 
+                Escreval("O nÃºmero escolhido foi",N1," e Ã© Ã­mpar")
+                fimse
 fimalgoritmo
