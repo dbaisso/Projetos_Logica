@@ -1,19 +1,17 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "11_exercicio"
 // Data : 05/05/2021
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
 Na,Nb,Nc: real
 inicio
-Escreval("Informar número para representar letra 'A' na equação de 2ºgrau")
+Escreval("Informar nÃºmero para representar letra 'A' na equaÃ§Ã£o de 2Âºgrau")
 Leia (Na)
-Escreval("Informar número para representar letra 'B' na equação de 2ºgrau")
+Escreval("Informar nÃºmero para representar letra 'B' na equaÃ§Ã£o de 2Âºgrau")
 Leia (Nb)
-Escreval("Informar número para representar letra 'C' na equação de 2º grau")
+Escreval("Informar nÃºmero para representar letra 'C' na equaÃ§Ã£o de 2Âº grau")
 Leia (Nc)
-Escreval("Resolvendo a equação a seguir:",Na,"x²",Nb,"x",Nc)
-Escreval("Temos que delta é ",(Nb^2)-4*Na*Nc)
+Escreval("Resolvendo a equaÃ§Ã£o a seguir:",Na,"xÂ²",Nb,"x",Nc)
+Escreval("Temos que delta Ã© ",(Nb^2)-4*Na*Nc)
 
-// Seção de Comandos 
 fimalgoritmo
