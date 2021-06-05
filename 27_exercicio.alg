@@ -1,8 +1,6 @@
-algoritmo "27)exercicio"
-// Função :
-// Autor :
-// Data : 07/05/2021
-// Seção de Declarações 
+algoritmo "27_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
    N1,N2,NF:Real
 inicio
@@ -12,19 +10,15 @@ inicio
       Leia (N2)
       NF<-(N1+N2)/2
                    se(NF<=4.9)entao
-                   Escreval("Sua média foi de ",NF," e foi REPROVADO")
+                   Escreval("Sua mÃ©dia foi de ",NF," e foi REPROVADO")
                    senao
                         se(NF>=5.0)e(NF<=6.9)entao
-                        Escreval("Sua média foi de ",NF," e está em RECUPERAÇÃO")
+                        Escreval("Sua mÃ©dia foi de ",NF," e estÃ¡ em RECUPERAÃ‡ÃƒO")
                         senao
                              se(NF>=7)entao
-                             Escreval("Sua média foi de ",NF," e foi APROVADO")
+                             Escreval("Sua mÃ©dia foi de ",NF," e foi APROVADO")
                              senao
                              fimse
                         fimse
                    fimse
-
-
-
-// Seção de Comandos 
 fimalgoritmo
