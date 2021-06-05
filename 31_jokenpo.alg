@@ -1,8 +1,6 @@
-algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 13/05/2021
-// Seção de Declarações 
+algoritmo "31_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
    pd,pl,ts,jogada,naleat:inteiro
    s:caractere
@@ -11,14 +9,14 @@ inicio
    Escreval("-----------------------------------------------------")
    Escreval("                     JOKENPO                         ")
    Escreval("-----------------------------------------------------")
-   Escreval("As regras do jogo são: entre 3 opções pedra papel e  ")
+   Escreval("As regras do jogo sÃ£o: entre 3 opÃ§Ãµes pedra papel e  ")
    Escreval("tesoura, pedra ganha de tesoura e perde para papel,  ")
    Escreval("papel ganha de pedra e perde para tesoura, tesoura   ")
    Escreval("ganha de papel e perde para pedra.                   ")
    Escreval("-----------------------------------------------------")
    Escreval()
 
-   Escreval("Digite o número que representa sua jogada entre pedra(1), papel(2) e tesoura(3): ")
+   Escreval("Digite o nÃºmero que representa sua jogada entre pedra(1), papel(2) e tesoura(3): ")
    Leia(jogada)
    pd<-1
    pl<-2
@@ -26,18 +24,17 @@ inicio
    aleatorio 1,3
       leia(naleat)
           se jogada>naleat entao
-          Escreval("A máquina escolheu ",naleat," e vc ganhou. Quer continuar?")
+          Escreval("A mÃ¡quina escolheu ",naleat," e vc ganhou. Quer continuar?")
           senao
               se jogada<naleat entao
-              Escreval("A máquina escolheu ",naleat," e vc perdeu.")
+              Escreval("A mÃ¡quina escolheu ",naleat," e vc perdeu.")
               senao jogada=naleat
-              Escreval("A máquina escolheu ",naleat," igual a você. EMPATE")
+              Escreval("A mÃ¡quina escolheu ",naleat," igual a vocÃª. EMPATE")
               fimse
           fimse
    aleatorio off
-  Escreva("Você deseja continuar a jogar[S/N]:")
+  Escreva("VocÃª deseja continuar a jogar[S/N]:")
   Leia(s)
   limpatela
   ate(s="N")
-
 fimalgoritmo
