@@ -1,12 +1,10 @@
-algoritmo "2)exercicio"
-// Função :
-// Autor :
-// Data : 05/05/2021
-// Seção de Declarações 
+algoritmo "2_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
 Nome:caractere
 inicio
-Escreval("Olá, qual seu nome? ")
-Leia(Nome)
-Escreva ("Muito prazer, seu nome é ",Nome)
+      Escreval("OlÃ¡, qual seu nome? ")
+      Leia(Nome)
+      Escreva ("Muito prazer, seu nome Ã© ",Nome)
 fimalgoritmo
