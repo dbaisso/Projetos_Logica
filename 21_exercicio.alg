@@ -1,20 +1,17 @@
-algoritmo "21)exercicio"
-// Função :
-// Autor :
-// Data : 06/05/2021
-// Seção de Declarações 
+algoritmo "21_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
    A:inteiro
    F:real
 inicio
-      Escreval("Para descobrir se o ano que vc escolher é bissexto digite qualquer ano: ")
+      Escreval("Para descobrir se o ano que vc escolher Ã© bissexto digite qualquer ano: ")
       Leia (A)
       F<-A/4
           //nao consigo aplicar a logica aqui por enquanto
             se(F%4=0)entao
-              Escreval("O ano ",A," é bissexto")
+              Escreval("O ano ",A," Ã© bissexto")
             senao
-                 Escreval("Ano ",A," não é bissexto")
+                 Escreval("Ano ",A," nÃ£o Ã© bissexto")
             fimse
-// Seção de Comandos 
 fimalgoritmo
