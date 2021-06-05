@@ -1,4 +1,4 @@
-algoritmo "10)exercicio"
+algoritmo "10_exercicio"
 
 // Data : 05/05/2021
 // Seção de Declarações 
@@ -14,5 +14,4 @@ Leia (La)
 Escreval("A área dessa parede é de ",Al*La,"m²")
 Escreval("Você precisará de ",(Al*La)/2," Litros de tinta para pintar toda essa área.")
 
-// Seção de Comandos 
 fimalgoritmo
