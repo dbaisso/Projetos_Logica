@@ -1,8 +1,8 @@
 algoritmo "10)exercicio"
-// Função :
-// Autor :
+
 // Data : 05/05/2021
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
 Al,La:real
 
@@ -11,8 +11,8 @@ Escreval("Qual altura da parede que deseja pintar?")
 Leia (Al)
 Escreval("Qual largura da mesma parede que deseja pintar?")
 Leia (La)
-Escreval("A área dessa parede é de ",Al*La,"m²")
-Escreval("Você precisará de ",(Al*La)/2," Litros de tinta para pintar toda essa área.")
+Escreval("A Ã¡rea dessa parede Ã© de ",Al*La,"mÂ²")
+Escreval("VocÃª precisarÃ¡ de ",(Al*La)/2," Litros de tinta para pintar toda essa Ã¡rea.")
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
