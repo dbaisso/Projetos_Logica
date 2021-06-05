@@ -1,16 +1,12 @@
-algoritmo "8)exercicio"
-// FunÁ„o :
-// Autor :
-// Data : 05/05/2021
-// SeÁ„o de DeclaraÁıes 
-var
-N1:Real
-inicio
-Escreval("Informe um valor em metros e retornaremos o valor referido em outros medidas")
-Leia (N1)
-Escreval("O valor digitado foi",N1," e a convers„o em kilometros ser· ",N1/1000, "km")
-Escreval("A convers„o em centÌmetros ser· de ",N1/100, "cm")
-Escreval("A convers„o em milÌmetros ser· de ",N1/1000, "mm")
+algoritmo "8_exercicio"
+// Se√ß√£o de Declara√ß√µes 
 
-// SeÁ„o de Comandos 
+var
+   N1:Real
+inicio
+      Escreval("Informe um valor em metros e retornaremos o valor referido em outros medidas")
+      Leia (N1)
+      Escreval("O valor digitado foi",N1," e a convers√£o em kilometros ser√° ",N1/1000, "km")
+      Escreval("A convers√£o em cent√≠metros ser√° de ",N1/100, "cm")
+      Escreval("A convers√£o em mil√≠metros ser√° de ",N1/1000, "mm")
 fimalgoritmo
