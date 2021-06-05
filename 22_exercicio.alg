@@ -1,20 +1,18 @@
-algoritmo "22)exercicio"
-// Função :
-// Autor :
-// Data : 06/05/2021
-// Seção de Declarações 
+algoritmo "22_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
+
 var
    A,F,G,Idd:inteiro
+   
 inicio
-      Escreval("Em que ano você nasceu?")
+      Escreval("Em que ano vocÃª nasceu?")
       Leia(A)
       Idd<-2021-A
       F<-18-Idd
       G<-Idd-18
               se(Idd<18)entao
-              Escreval("Você ainda não possui idade para se alistar na junta militar. Faltam",F," anos.")
+              Escreval("VocÃª ainda nÃ£o possui idade para se alistar na junta militar. Faltam",F," anos.")
               senao(Idd>=18)
-              escreval("Você já passou da idade para se alistar em",G," anos.")
+              escreval("VocÃª jÃ¡ passou da idade para se alistar em",G," anos.")
       fimse
-// Seção de Comandos 
 fimalgoritmo
