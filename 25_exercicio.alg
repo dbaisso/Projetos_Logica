@@ -1,8 +1,6 @@
-algoritmo "25)exercicio"
-// Função :
-// Autor :
-// Data : 06/05/2021
-// Seção de Declarações 
+algoritmo "25_exercicio"
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
+
 var
    L1,L2,L3:inteiro
    Eq,Es:Logico
@@ -16,23 +14,20 @@ inicio
       Leia(L3)
       Eq<-(L1=L2)e(L2=L3)
       Es<-(L1<>L2)e(L2<>L3)e(L3<>L1)
-      Escreval("Esse triangulo é equilátero?",Eq)
-      Escreval("Esse triangulo é escaleno?",Es)
+      Escreval("Esse triangulo Ã© equilÃ¡tero?",Eq)
+      Escreval("Esse triangulo Ã© escaleno?",Es)
 
       //Outro modo de representar os triangulos
       //Se(L1=L2)e(L2=L3)entao
-      //Escreval("Para todos os lados do tríangulos iguais temos um trinângulo Equilátero")
+      //Escreval("Para todos os lados do trÃ­angulos iguais temos um trinÃ¢ngulo EquilÃ¡tero")
       //senao
       //    se(L1+L2<L3)e(L2+L3<L1)e(L3+L1<L2)entao
-      //     Escreval("Para o comprimento de cada lado ser menor que a soma dos outros dois, ou seja, É TRIÂNGULO")
+      //     Escreval("Para o comprimento de cada lado ser menor que a soma dos outros dois, ou seja, Ã‰ TRIÃ‚NGULO")
       //     senao
       //          se(L1<>L2)e(L2<>L3)e(L3<>L1)entao
-      //          Escreval("Esse triangulo é escaleno")
+      //          Escreval("Esse triangulo Ã© escaleno")
       //          senao
       //          fimse
       //    fimse
       //fimse
-
-
-// Seção de Comandos 
 fimalgoritmo
