@@ -1,8 +1,6 @@
-algoritmo "37)exercicio"
-// FunÁ„o :
-// Autor :
-// Data : 17/05/2021
-// SeÁ„o de DeclaraÁıes 
+algoritmo "37_exercicio"
+// Se√ß√£o de Declara√ß√µes 
+
 var
    salario,tempo_anos:real
    genero,funcionario:caractere
@@ -11,45 +9,45 @@ inicio
       Escreval("                    Reajuste salarial                          ")
       Escreval("---------------------------------------------------------------")
       Escreval()
-      Escreval("Qual nome do funcion·rio?")
+      Escreval("Qual nome do funcion√°rio?")
       Leia(funcionario)
-      Escreval("Qual gÍnero do funcion·rio?")
+      Escreval("Qual g√™nero do funcion√°rio?")
       Leia(genero)
-      Escreval("Por quantos anos o funcion·rio(a) est· trabalhando na empresa?")
+      Escreval("Por quantos anos o funcion√°rio(a) est√° trabalhando na empresa?")
       Leia(tempo_anos)
-      Escreval("Qual sal·rio atual desse funcion·rio?")
+      Escreval("Qual sal√°rio atual desse funcion√°rio?")
       Leia(salario)
                    se(genero="feminino")entao
                         se(tempo_anos<15)entao
                         salario<-salario*1.05
-                        Escreval("A funcion·ria ",funcionario," ter· um novo sal·rio de R$ ",salario)
+                        Escreval("A funcion√°ria ",funcionario," ter√° um novo sal√°rio de R$ ",salario)
                         senao
                         fimse
                              se(tempo_anos>=15) e (tempo_anos<20)entao
                              salario<-salario*1.12
-                             Escreval("A funcion·ria ",funcionario," ter· um novo sal·rio de R$ ",salario)
+                             Escreval("A funcion√°ria ",funcionario," ter√° um novo sal√°rio de R$ ",salario)
                              senao
                              fimse
                                   se(tempo_anos>20)entao
                                   salario<-salario*1.23
-                                  Escreval("A funcion·ria ",funcionario," ter· um novo sal·rio de R$ ",salario)
+                                  Escreval("A funcion√°ria ",funcionario," ter√° um novo sal√°rio de R$ ",salario)
                                   senao
                                   fimse
 
                    senao(genero="masculino")entao
                      se(tempo_anos<20)entao
                      salario<-salario*1.03
-                     Escreval("A funcion·ria ",funcionario," ter· um novo sal·rio de R$ ",salario)
+                     Escreval("A funcion√°ria ",funcionario," ter√° um novo sal√°rio de R$ ",salario)
                      senao
                      fimse
                           se(tempo_anos>=20) e (tempo_anos<30)entao
                           salario<-salario*1.13
-                          Escreval("A funcion·ria ",funcionario," ter· um novo sal·rio de R$ ",salario)
+                          Escreval("A funcion√°ria ",funcionario," ter√° um novo sal√°rio de R$ ",salario)
                           senao
                           fimse
                                se(tempo_anos>30)entao
                                salario<-salario*1.25
-                               Escreval("A funcion·ria ",funcionario," ter· um novo sal·rio de R$ ",salario)
+                               Escreval("A funcion√°ria ",funcionario," ter√° um novo sal√°rio de R$ ",salario)
                                senao
                                fimse
                    fimse
