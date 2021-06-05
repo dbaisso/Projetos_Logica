@@ -1,31 +1,27 @@
-algoritmo "29)exercicio"
-// FunÁ„o :
-// Autor :
-// Data : 07/05/2021
-// SeÁ„o de DeclaraÁıes 
+algoritmo "29_exercicio"
+// Se√ß√£o de Declara√ß√µes 
+
 var
    N:caractere
    S:real
    A:inteiro
 inicio
-      Escreval("Programa para mostrar aumento no sal·rio")
+      Escreval("Programa para mostrar aumento no sal√°rio")
       Escreval("Qual seu nome?")
       Leia(N)
-      Escreval("Qual valor de seu sal·rio?")
+      Escreval("Qual valor de seu sal√°rio?")
       Leia(S)
-      Escreval("Trabalha na empresa h· quantos anos?")
+      Escreval("Trabalha na empresa h√° quantos anos?")
       Leia(A)
              se(A<3)entao
-             Escreval("Funcionario(a) ",N, " trabalha na empresa por menos de 3 anos, ent„o seu novo sal·rio ser· R$ ",S*1.03,".")
+             Escreval("Funcionario(a) ",N, " trabalha na empresa por menos de 3 anos, ent√£o seu novo sal√°rio ser√° R$ ",S*1.03,".")
              senao
                   se(A>=3)e(A<=10)entao
-                  Escreval("Funcionario(a) ",N," trabalha na empresa entre 3  e 10 anos, ent„o seu novo sal·rio ser· ",S*1.125,".")
+                  Escreval("Funcionario(a) ",N," trabalha na empresa entre 3  e 10 anos, ent√£o seu novo sal√°rio ser√° ",S*1.125,".")
                   senao
                        se(A>10)entao
-                       Escreval("Funcionario(a) ",N," trabalha na empresa h· mais de 10 anos, entao seu novo sal·rio ser· ",S*1.20,".")
+                       Escreval("Funcionario(a) ",N," trabalha na empresa h√° mais de 10 anos, entao seu novo sal√°rio ser√° ",S*1.20,".")
                        fimse
                   fimse
              fimse
-
-// SeÁ„o de Comandos 
 fimalgoritmo
